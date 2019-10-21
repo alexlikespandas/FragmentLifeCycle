@@ -36,7 +36,7 @@ public class FragmentA extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.frag_a, null);
-        textView = (TextView) view.findViewById(R.id.tv_frag_a);
+        textView = view.findViewById(R.id.tv_frag_a);
         Log.e("Test", "onCreateView:" + s);
         return view;
     }
