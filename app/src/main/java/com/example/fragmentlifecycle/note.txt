@@ -1,0 +1,6 @@
+
+https://blog.csdn.net/u013519084/article/details/89511598
+
+如果不喜欢图标在页签的上面，有别的需求，比如图标在页签的左边，那么这时，可以使用Tab的setCustomView(View view)方法，
+可以通过布局填充器将自己布局好的xml填充成View对象,然后设置进去，就可以实现更加美观的页签了.
+TabLayout.Tab.setCustomView()
