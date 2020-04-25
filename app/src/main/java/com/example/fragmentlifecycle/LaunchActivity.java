@@ -15,6 +15,8 @@ public class LaunchActivity extends AppCompatActivity implements View.OnClickLis
         findViewById(R.id.btn_NormalViewPager).setOnClickListener(this);
         findViewById(R.id.btn_TabLayoutViewPager).setOnClickListener(this);
         //我在test01分支上写了这行注释，并commit
+
+        //我在test02分支上写了这行注释，并commit
     }
 
     @Override
